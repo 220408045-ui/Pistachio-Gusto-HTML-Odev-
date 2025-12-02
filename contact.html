@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İletişim - PISTACHIO GUSTO</title>
+</head>
+<body>
+
+    <header>
+        <h1>PISTACHIO GUSTO: Antep Fıstıklı Lezzetlerin Zirvesi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Markamız</a></li>
+                <li><a href="services.html">Ürün Çeşitleri</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bizimle İletişime Geçin</h2>
+        <p>Toptan satış talepleri, bayilik başvuruları veya genel geri bildirimleriniz için aşağıdaki formu kullanabilirsiniz.</p>
+
+        <form action="#" method="POST">
+            
+            <fieldset>
+                <legend>İletişim Bilgileriniz</legend>
+                
+                <div>
+                    <label for="ad_soyad">Adınız ve Soyadınız:</label>
+                    <input type="text" id="ad_soyad" name="ad_soyad" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="randevu_tarihi">Geri Dönüş İçin Uygun Tarih:</label>
+                    <input type="date" id="randevu_tarihi" name="randevu_tarihi">
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Talebiniz</legend>
+                
+                <div>
+                    <label for="talep_tipi">Talep Türü:</label>
+                    <select id="talep_tipi" name="talep_tipi" required>
+                        <option value="">-- Lütfen Seçiniz --</option>
+                        <option value="toptan">Toptan Satış/Bayilik</option>
+                        <option value="geri_bildirim">Ürün Geri Bildirimi</option>
+                        <option value="teknik">Teknik Destek/Web Sitesi</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea id="mesaj" name="mesaj" rows="6" required></textarea>
+                </div>
+            </fieldset>
+
+            <div>
+                <input type="submit" value="Formu Gönder">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PISTACHIO GUSTO | [Adınız Soyadınız]. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
